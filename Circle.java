@@ -12,8 +12,8 @@ public class Circle {
     public static void main(String[] args)
     {
         Circle pizza = new Circle();
-        pizza.radius = 10;
         pizza.name = "피자";
+        pizza.radius = 10;
         double area = pizza.getArea();
         System.out.println(pizza.name+ "의 면적은 " +area);
 
@@ -21,6 +21,6 @@ public class Circle {
         donut.name = "도넛";
         donut.radius = 2;
         area = donut.getArea();
-        System.out.println(donut.name+ "의 면적은 " +area);
+        System.out.println(donut.name+"의 면적은 " +area);
     }
 }

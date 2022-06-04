@@ -1,13 +1,12 @@
 //너비와 높이를 입력받아 사각형의 합을 출력하는 프로그램 작성
-//너이봐 높이 필드, 면적 값을 제공하는 getArea() 메소드를 가진 Rectangle 클래스를 만들어 활용
+//너비와 높이 필드, 면적 값을 제공한느 getArea() 메소드를 가진 Rectangle 클래스
 import java.util.Scanner;
 
 public class Rectangle {
     int width;
     int height;
 
-    public int getArea()
-    {
+    public int getArea(){
         return width * height;
     }
 
@@ -24,4 +23,5 @@ public class Rectangle {
 
         scanner.close();
     }
+
 }
